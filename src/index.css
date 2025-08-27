@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+body {
+     font-family: "Hanken Grotesk", sans-serif;
+}
+
+
+.results-section{
+    background-image: linear-gradient(to bottom, #7755FF, #2F2CE9);
+    border-radius: 0 0 2rem 2rem;
+    text-align: center;
+    height: 35rem;
+    width: 100%;
+    padding: 3.2rem 5.2rem;
+    display: flex;
+    justify-content: center;
+}
+.results-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 26rem;
+}
+.results-section h1 {
+    font-size: 1.8rem;
+    color: #CAC9FF;
+    margin-bottom: 2.4rem;
+}
+.score-container{
+    height: 14rem;
+    width: 14rem;
+    background-image: linear-gradient(to bottom, #4D21C9, #2521C9);
+    border-radius: 7rem;
+    padding: 3rem;
+}
+.score-container .big-score {
+    font-size: 5.6rem;
+    color: white;
+    font-weight: 800;
+}
+.out-of-score {
+    font-size: 1.6rem;
+    color: #CAC9FF;
+    font-weight: bold;
+}
+.feedback-container {
+    color: white;
+}
+.feedback-container h3 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 130%;
+    margin-bottom: .8rem;
+    margin-top: 2.4rem;
+}
+.feedback-container p {
+    font-size: 1.6rem;
+    color: #CAC9FF;
+}
+
+.summary-section {
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.summary-section h3{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.summary-content-card{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.6rem;
+    background-color: #FFF6F6;
+    border-radius: 1.2rem;
+    align-items: center;
+}
+
+.summary-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.summary-title p{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.summary-score p, span {
+    font-size: 1.6rem;
+}
+
+.summary-score span {
+    color: #303B59;
+}
+
+.summary-section button {
+    width: 100%;
+    padding: 1.6rem;
+    border-radius: 12.8rem;
+    border: none;
+    color: white;
+    background-color: #303B59;
+    cursor: pointer;
+}
+.reaction-text {
+    color: #FF5555;
+}
+.memory-text {
+    color: #FFB21E;
+}
+.verbal-text{
+    color: #00BB8F;
+}
+.visual-text {
+    color: #1125D6;
+}
