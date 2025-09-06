@@ -113,6 +113,7 @@ body {
     color: white;
     background-color: #303B59;
     cursor: pointer;
+    font-size: 1.8rem;
 }
 .reaction-text {
     color: #FF5555;
@@ -125,4 +126,96 @@ body {
 }
 .visual-text {
     color: #1125D6;
+}
+
+@media (min-width: 768px) {
+
+    body {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container {
+        max-width: 73.6rem;
+        background: white;
+        display: flex;
+        flex-direction: row;
+        border-radius: 3.2rem;
+        box-shadow: 0 3rem 6rem rgba(61, 108, 236, 0.15);
+    }
+
+    .results-section {
+        flex: 1;
+        border-radius: 3.2rem;
+        height: auto;
+        min-height: 51.2rem;
+        padding: 4rem;
+    }
+
+    .results-content {
+        width: 100%;
+        max-width: 34rem;
+        gap: 2.8rem;
+    }
+
+    .score-container {
+        height: 20rem;
+        width: 20rem;
+        border-radius: 10rem;
+        padding: 5.5rem;
+    }
+
+    .score-container .big-score {
+        font-size: 7.2rem;
+        margin-bottom: 0.4rem;
+    }
+
+    .out-of-score {
+        font-size: 1.8rem;
+    }
+
+    .feedback-container h3 {
+        font-size: 3.2rem;
+        margin: 0;
+        margin-bottom: 1.4rem;
+    }
+
+    .feedback-container p {
+        font-size: 1.8rem;
+        line-height: 1.5;
+    }
+
+    .summary-section {
+        flex: 1;
+        margin: 4rem;
+        gap: 2.8rem;
+    }
+
+    .summary-section h3 {
+        font-size: 2.4rem;
+    }
+
+    .summary-content-card {
+        padding: 1.7rem 3.2rem;
+        border-radius: 1.2rem;
+    }
+
+    .summary-title p,
+    .summary-score p,
+    .summary-score span {
+        font-size: 1.8rem;
+    }
+
+    .summary-section button {
+        margin-top: 1.6rem;
+        padding: 1.7rem;
+        font-size: 1.8rem;
+        transition: background-color 0.3s ease;
+    }
+
+    .summary-section button:hover {
+        background: linear-gradient(to bottom, #7755FF, #2F2CE9);
+    }
 }
